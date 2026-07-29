@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/ (jivesoftware org packages) + https://github.com/jivesoftware
+packages:
+  - language: javascript
+    registry: npm
+    name: jive-sdk
+    url: https://www.npmjs.com/package/jive-sdk
+    install: npm install jive-sdk
+    version: 0.2.17
+    repository: https://github.com/jivesoftware/jive-sdk
+    description: Official Node.js SDK for Jive Software to build add-ons and integrations (Express/mustache).
+    official: true
+  - language: javascript
+    registry: npm
+    name: jive-persistence-mongo
+    url: https://www.npmjs.com/package/jive-persistence-mongo
+    install: npm install jive-persistence-mongo
+    version: 0.0.19
+    repository: https://github.com/jivesoftware/jive-persistence-mongo
+    description: MongoDB persistence strategy for the jive-sdk.
+    official: true
+  - language: javascript
+    registry: npm
+    name: jive-persistence-postgres
+    url: https://www.npmjs.com/package/jive-persistence-postgres
+    install: npm install jive-persistence-postgres
+    version: 0.0.24
+    repository: https://github.com/jivesoftware/jive-persistence-postgres
+    description: Postgres persistence strategy for the jive-sdk.
+    official: true
+  - language: javascript
+    registry: npm
+    name: jive-scheduler-kue
+    url: https://www.npmjs.com/package/jive-scheduler-kue
+    install: npm install jive-scheduler-kue
+    version: 0.0.21
+    repository: https://github.com/jivesoftware/jive-scheduler-kue
+    description: Kue-based scheduler library for the jive-sdk.
+    official: true

@@ -1,8 +1,27 @@
 aid: jive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jive.png
 name: Jive
-description: 'Jive is a company surfaced as a portfolio company of kleiner-perkins and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Jive (marketed today as "Jive AI" and owned by IgniteTech, an ESW Capital
+  company based in Austin, Texas) is an enterprise collaboration and communication
+  platform — a digital workplace that unifies people, knowledge, and content across
+  departments and locations for large, often regulated organizations. Capabilities
+  include collaboration spaces and group discussions, knowledge management with
+  search and co-editing, personalized role-based news feeds, mobile and desktop
+  apps, and engagement analytics. Jive originated as a venture-backed (Kleiner
+  Perkins) enterprise-social vendor that IPO''d in 2011 and shipped a REST API plus
+  an official Node.js add-on SDK. It was later acquired into the Aurea / ESW Capital
+  / IgniteTech family.'
 url: https://raw.githubusercontent.com/api-evangelist/jive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Collaboration
+- Digital Workplace
+- Knowledge Management
+- Intranet
+- Enterprise Social
+- Communication
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.jivesoftware.com
+- type: DeveloperPortal
+  url: https://developer.jivesoftware.com/
+- type: GitHubOrganization
+  url: https://github.com/jivesoftware
+- type: Support
+  url: https://ignitetech.ai/get-support/
+- type: Packages
+  url: packages/jive-packages.yml
+- type: SDKs
+  url: packages/jive-packages.yml
+- type: DomainSecurity
+  url: security/jive-domain-security.yml
+- type: LLMsTxt
+  url: llms/jive-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
