@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.jivesoftware.com', status: 302, note: 'declared website redirects to https://ignitetech.ai/software-library/jive/ — a different registrable domain (jivesoftware.com -> ignitetech.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jive.png
 name: Jive
 description: 'Jive (marketed today as "Jive AI" and owned by IgniteTech, an ESW Capital
